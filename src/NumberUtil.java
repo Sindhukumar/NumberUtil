@@ -12,7 +12,7 @@ public class NumberUtil {
 		return NumberFormat.getCurrencyInstance().format(num);
 	}
 	
-	public static String percentage(double num, int pl){
+	public static String decimal(double num, int pl){
 		NumberFormat number = NumberFormat.getNumberInstance();
 		number.setMaximumFractionDigits(pl);
 		return number.format(num);
